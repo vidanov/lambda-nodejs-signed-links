@@ -1,0 +1,23 @@
+{
+  "name": "sam-signed-links",
+  "version": "1.0.0",
+  "description": "API for Signed Links for CloudFormation Resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "api",
+    "cloudformation",
+    "api-gateway"
+  ],
+  "author": "Alexey Vidanov",
+  "license": "ISC",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
